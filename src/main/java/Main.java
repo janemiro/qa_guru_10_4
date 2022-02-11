@@ -8,7 +8,6 @@ public class Main {
         Cats cat2 = new Cats("Рыжик", 3, false, "Рыжик - наглая пушистая задница");
         System.out.println(cat2);
 
-
         Dogs dog1 = new Dogs("Лаки", 5, false, "она любит играть в мячик");
         System.out.println(dog1);
 
