@@ -1,13 +1,13 @@
-public class Cats {
+public class Cat {
     private final String name;
     private final int age;
-    private final boolean needsHelp;
+    private final boolean isHelpNeeded;
     private final String note;
 
-    public Cats(String name, int age, boolean needsHelp, String note) {
+    public Cat(String name, int age, boolean isHelpNeeded, String note) {
         this.name = name;
         this.age = age;
-        this.needsHelp = needsHelp;
+        this.isHelpNeeded = isHelpNeeded;
         this.note = note;
     }
 
@@ -19,8 +19,8 @@ public class Cats {
         return age;
     }
 
-    public boolean getNeedsHelp() {
-        return needsHelp;
+    public boolean isHelpNeeded() {
+        return isHelpNeeded;
     }
 
     public String getNote() {
@@ -31,7 +31,7 @@ public class Cats {
         return "Кошка " +
                 this.name + ", " +
                 "возраст " + this.age + ". " +
-                "Нуждается в особом уходе: " + this.needsHelp + ", " +
+                "Нуждается в особом уходе: " + this.isHelpNeeded + ", " +
                 "Обратите внимание, что " + this.note + "!";
     }
 }
